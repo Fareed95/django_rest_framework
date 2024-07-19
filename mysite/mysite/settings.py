@@ -38,7 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'poll',
-    'rest_framework'
+    'coarse',
+    'class_based_view',
+    'rest_framework',
+    'phonenumber_field',
+    'mixins_api',
+    'viewset_api'
 ]
 
 MIDDLEWARE = [

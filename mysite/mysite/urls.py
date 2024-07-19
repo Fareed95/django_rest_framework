@@ -8,5 +8,6 @@ urlpatterns = [
     path('assignment/',include('coarse.urls')),
     path("classbasedview/", include('class_based_view.urls')),
     path('mixinsapi/',include('mixins_api.urls')),
-    path('viewsetapi/',include('viewset_api.urls'))
+    path('viewsetapi/',include('viewset_api.urls')),
+    path('nsapp/',include('nsapp.urls'))
 ]

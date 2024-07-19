@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'phonenumber_field',
     'mixins_api',
-    'viewset_api'
+    'viewset_api',
+    'nsapp',
 ]
 
 MIDDLEWARE = [
